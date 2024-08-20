@@ -2,6 +2,6 @@ name = "JSDoc"
 grammar = "jsdoc"
 autoclose_before = "]}"
 brackets = [
-  { start = "{", end = "}", close = true, newline = false },
-  { start = "[", end = "]", close = true, newline = false },
+  { start = "{", end = "}", close = false, newline = false },
+  { start = "[", end = "]", close = false, newline = false },
 ]

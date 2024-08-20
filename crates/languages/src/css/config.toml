@@ -3,11 +3,11 @@ grammar = "css"
 path_suffixes = ["css"]
 autoclose_before = ";:.,=}])>"
 brackets = [
-    { start = "{", end = "}", close = true, newline = true },
-    { start = "[", end = "]", close = true, newline = true },
-    { start = "(", end = ")", close = true, newline = true },
-    { start = "\"", end = "\"", close = true, newline = false, not_in = ["string", "comment"] },
-    { start = "'", end = "'", close = true, newline = false, not_in = ["string", "comment"] },
+    { start = "{", end = "}", close = false, newline = true },
+    { start = "[", end = "]", close = false, newline = true },
+    { start = "(", end = ")", close = false, newline = true },
+    { start = "\"", end = "\"", close = false, newline = false, not_in = ["string", "comment"] },
+    { start = "'", end = "'", close = false, newline = false, not_in = ["string", "comment"] },
 ]
 word_characters = ["-"]
 block_comment = ["/* ", " */"]

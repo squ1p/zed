@@ -5,7 +5,7 @@ path_suffixes = ["sh", "bash", "bashrc", "bash_profile", "bash_aliases", "bash_l
 line_comments = ["# "]
 first_line_pattern = "^#!.*\\b(?:ba|z)?sh\\b"
 brackets = [
-    { start = "[", end = "]", close = true, newline = false },
-    { start = "(", end = ")", close = true, newline = false },
-    { start = "\"", end = "\"", close = true, newline = false, not_in = ["comment", "string"] },
+    { start = "[", end = "]", close = false, newline = false },
+    { start = "(", end = ")", close = false, newline = false },
+    { start = "\"", end = "\"", close = false, newline = false, not_in = ["comment", "string"] },
 ]

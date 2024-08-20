@@ -4,9 +4,9 @@ path_suffixes = ["yml", "yaml"]
 line_comments = ["# "]
 autoclose_before = ",]}"
 brackets = [
-    { start = "{", end = "}", close = true, newline = true },
-    { start = "[", end = "]", close = true, newline = true },
-    { start = "\"", end = "\"", close = true, newline = false, not_in = ["string"] },
+    { start = "{", end = "}", close = false, newline = true },
+    { start = "[", end = "]", close = false, newline = true },
+    { start = "\"", end = "\"", close = false, newline = false, not_in = ["string"] },
 ]
 
 auto_indent_using_last_non_empty_line = false
