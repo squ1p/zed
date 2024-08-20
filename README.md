@@ -1,3 +1,8 @@
+# What is this fork ?
+
+This is a fork I made for my own use. I hard-removed autoclose from every language configuration since I can't seem to find a reliable way to disable it.
+I also removed the "sign-in" button. Otherwise it is just zed, which is great !
+
 # Zed
 
 [![CI](https://github.com/zed-industries/zed/actions/workflows/ci.yml/badge.svg)](https://github.com/zed-industries/zed/actions/workflows/ci.yml)
